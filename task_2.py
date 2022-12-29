@@ -78,9 +78,9 @@ def List_to_dict(list):
 
 print('Введите натуральную степень k:')
 k = int(input())
-print('Введити имя первого файла:')
+print('Введите имя первого файла:')
 Creat_file(name_first := input() + '.txt', k)
-print('Введити имя второго файла:')
+print('Введите имя второго файла:')
 Creat_file(name_second := input() + '.txt', k)
 
 with open(f'{name_first}') as file:
